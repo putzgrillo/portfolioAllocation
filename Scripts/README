@@ -1,0 +1,8 @@
+- 'BrunoGrillo_TrabalhoII.pdf' é o arquivo do trabalho com texto
+- 'script_central.R' é o script que chama todas funções e executa os procedimentos da estratégia
+- 'arma_garch.R' é a função que estima o modelo ARMA-GARCH com inovações t-student assimétrica
+- 'pseudo_uniform_marginal.R' é a função que cria os vetores das pseudo-marginais a partir dos parâmetros do GARCH 
+- 'copulae_fit.R' é a função que compara as cópulas candidatas e retorna a com menor AIC & as métricas de comparação entre as cópulas (opcionalmente retorna o teste de qualidade de ajuste)
+- 'simulate_returns.R' é a função que simula os retornos do período seguinte a partir do modelo ARMA-GARCH e da cópula
+- 'generate_portfolio_weights.R' é a função que determina o peso de cada ativo no portfólio a partir dos retornos simulados (otimização do CVaR)
+- 'returns_evaluation.R' é a função que traz métricas para comparar o resultado fora-da-amostra de cada estratégia
